@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Old Town Food, Bhaktapur</title>
+<meta name="description" content="Old Town Food, late-night food in Bhaktapur, Nepal. Menu, location and table reservations.">
+<link rel="icon" href="./img/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600&family=Yeseva+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<a class="skip" href="#menu">Skip to the menu</a>
+<div class="promo">Late-night kitchen. <a href="#visit">Find us</a></div>
+
+<main id="top">
+  <div class="hero-wrap" id="hero-wrap">
+  <section class="hero-full">
+    <div class="hero-photo" data-slot="hero" data-alt="Old Town Food photos">
+      <img src="./img/noodles-big.jpg" width="800" height="800" alt="A plate of fried noodles with coriander">
+      <img src="./img/interior.png" width="305" height="250" alt="Inside Old Town Food" loading="lazy">
+      <img src="./img/mutton.jpg" width="320" height="320" alt="Mutton curry with coriander" loading="lazy">
+    </div>
+    <header class="nav">
+      <div class="container">
+        <a class="wordmark" href="#top" aria-label="Old Town Food, home">
+          <svg class="logo-mark" viewBox="0 0 48 48" width="40" height="40" aria-hidden="true"><circle cx="24" cy="24" r="21" fill="none" stroke="currentColor" stroke-width="3"/><circle cx="24" cy="24" r="16" fill="none" stroke="currentColor" stroke-width="1"/><text x="24" y="30" text-anchor="middle" class="logo-letters">OT</text></svg>
+          <span class="logo-text">Old Town Food<small>Quality you can taste</small></span>
+        </a>
+        <nav aria-label="Main">
+          <ul>
+            <li><a href="#top">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#visit">Visit</a></li>
+          </ul>
+        </nav>
+        <a class="btn" href="#reserve">Book a table</a>
+      </div>
+    </header>
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <h1><span>Late-night food</span> <span class="hot">in Bhaktapur.</span></h1>
+        <p class="lead">Old Town Food keeps the kitchen lit after the streets go quiet.</p>
+        <div class="actions">
+          <a class="btn" href="#menu">View menu</a>
+          <a class="btn btn-light" href="#reserve">Book a table</a>
+        </div>
+        <a class="mini-rating" href="#reviews" aria-label="Rated 3.8 out of 5 from 450 Google reviews">
+          <span class="stars"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.8-4.9 4.5 1.3 6.5L12 17l-5.9 3.3 1.3-6.5L2.5 9.3l6.6-.8z" fill="currentColor"/></svg><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.8-4.9 4.5 1.3 6.5L12 17l-5.9 3.3 1.3-6.5L2.5 9.3l6.6-.8z" fill="currentColor"/></svg><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.8-4.9 4.5 1.3 6.5L12 17l-5.9 3.3 1.3-6.5L2.5 9.3l6.6-.8z" fill="currentColor"/></svg><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.8-4.9 4.5 1.3 6.5L12 17l-5.9 3.3 1.3-6.5L2.5 9.3l6.6-.8z" fill="currentColor"/></svg><span class="star-dim"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.8-4.9 4.5 1.3 6.5L12 17l-5.9 3.3 1.3-6.5L2.5 9.3l6.6-.8z" fill="currentColor"/></svg></span></span>
+          <span>3.8 from 450 Google reviews</span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <div class="tear" aria-hidden="true"></div>
+  </div>
+
+  <section class="dishes" aria-label="Popular dishes">
+    <div class="container">
+      <div class="dishes-bar">
+        <h2>Popular dishes.</h2>
+        <div class="arrows">
+          <button type="button" class="round-btn round-quiet" id="prev" aria-label="Previous dishes"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          <button type="button" class="round-btn" id="next" aria-label="Next dishes"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        </div>
+      </div>
+      <ul class="dish-row" id="dish-row" tabindex="0" aria-label="Dishes, scroll sideways">
+<li class="dish"><div class="dish-img"><img src="./img/pork.jpg" width="320" height="320" alt="Pork ribs" loading="lazy"></div><h3>Pork ribs</h3><p>Pork delights</p><div class="dish-foot"><span class="price num">Rs. 495</span><a class="round-btn" href="#menu" aria-label="See Pork ribs on the menu"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></li>
+<li class="dish"><div class="dish-img"><img src="./img/mutton.jpg" width="320" height="320" alt="Mutton sekuwa" loading="lazy"></div><h3>Mutton sekuwa</h3><p>Mutton delights</p><div class="dish-foot"><span class="price num">Rs. 600</span><a class="round-btn" href="#menu" aria-label="See Mutton sekuwa on the menu"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></li>
+<li class="dish"><div class="dish-img"><img src="./img/buff.jpg" width="320" height="320" alt="Buff sekuwa" loading="lazy"></div><h3>Buff sekuwa</h3><p>Buff delights</p><div class="dish-foot"><span class="price num">Rs. 390</span><a class="round-btn" href="#menu" aria-label="See Buff sekuwa on the menu"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></li>
+<li class="dish"><div class="dish-img"><img src="./img/noodles.jpg" width="320" height="320" alt="Buff chowmein" loading="lazy"></div><h3>Buff chowmein</h3><p>Noodles and rice</p><div class="dish-foot"><span class="price num">Rs. 260</span><a class="round-btn" href="#menu" aria-label="See Buff chowmein on the menu"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></li>
+<li class="dish"><div class="dish-img"><img src="./img/rice.jpg" width="320" height="320" alt="Veg fried rice" loading="lazy"></div><h3>Veg fried rice</h3><p>Noodles and rice</p><div class="dish-foot"><span class="price num">Rs. 240</span><a class="round-btn" href="#menu" aria-label="See Veg fried rice on the menu"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></li>
+<li class="dish"><div class="dish-img"><img src="./img/wrap.jpg" width="320" height="320" alt="Chicken wrap" loading="lazy"></div><h3>Chicken wrap</h3><p>Wraps with fries</p><div class="dish-foot"><span class="price num">Rs. 400</span><a class="round-btn" href="#menu" aria-label="See Chicken wrap on the menu"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></li>
+<li class="dish"><div class="dish-img"><img src="./img/thali.jpg" width="320" height="320" alt="Veg thali set" loading="lazy"></div><h3>Veg thali set</h3><p>Old Town thali</p><div class="dish-foot"><span class="price num">Rs. 450</span><a class="round-btn" href="#menu" aria-label="See Veg thali set on the menu"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container">
+      <div>
+        <h2>A kitchen for the late hours.</h2>
+        <p class="lead">Old Town Food serves hungry Bhaktapur after dark, when most kitchens have closed.</p>
+        <p>Come for a plate after a long walk through the old town, a quiet table with friends, or a hot meal at the end of a shift.</p>
+      </div>
+      <div class="slider" role="region" aria-roledescription="carousel" aria-label="Photos of Old Town Food">
+        <div class="slides" id="slides" aria-live="off">
+          <figure class="slide" aria-label="Slide 1 of 3">
+            <img src="./img/interior.png" width="305" height="250" alt="Inside Old Town Food: wood-panelled wall, wine racks and tables">
+            <figcaption>The dining room</figcaption>
+          </figure>
+          <figure class="slide" aria-label="Slide 2 of 3">
+            <img src="./img/dish.png" width="305" height="208" alt="A white bowl of dumplings in red chilli sauce topped with spring onion">
+            <figcaption>Dumplings in chilli sauce</figcaption>
+          </figure>
+          <figure class="slide" aria-label="Slide 3 of 3">
+            <img src="./img/shakes.png" width="305" height="498" alt="Two tall milkshakes with bendy straws, one yellow and one pink" style="object-position: 50% 35%">
+            <figcaption>Milkshakes</figcaption>
+          </figure>
+        </div>
+        <div class="slider-ui">
+          <button type="button" class="round-btn round-quiet" id="s-prev" aria-label="Previous photo"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          <div class="dots" id="dots" role="group" aria-label="Choose a photo"></div>
+          <button type="button" class="round-btn" id="s-next" aria-label="Next photo"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="menu">
+    <div class="container">
+      <div class="menu-head">
+        <h2>The menu.</h2>
+        <p>In rupees</p>
+      </div>
+      <div class="tabs" role="tablist" aria-label="Menu categories"><button type="button" role="tab" class="tab" id="tab-buff" aria-controls="panel-buff" aria-selected="true">Buff</button><button type="button" role="tab" class="tab" id="tab-pork" aria-controls="panel-pork" aria-selected="false">Pork</button><button type="button" role="tab" class="tab" id="tab-mutton" aria-controls="panel-mutton" aria-selected="false">Mutton</button><button type="button" role="tab" class="tab" id="tab-wraps" aria-controls="panel-wraps" aria-selected="false">Wraps</button><button type="button" role="tab" class="tab" id="tab-noodles" aria-controls="panel-noodles" aria-selected="false">Noodles and rice</button><button type="button" role="tab" class="tab" id="tab-thali" aria-controls="panel-thali" aria-selected="false">Thali</button></div>
+      <div role="tabpanel" class="panel" id="panel-buff" aria-labelledby="tab-buff"><ul class="price-list"><li><span>Buff sekuwa</span><span class="price num">Rs. 390</span></li><li><span>Buff chilly</span><span class="price num">Rs. 390</span></li><li><span>Buff sukuti sadeko</span><span class="price num">Rs. 390</span></li><li><span>Buff khaja set</span><span class="price num">Rs. 450</span></li><li><span>Buff sausages</span><span class="price num">Rs. 300</span></li><li><span>Buff choila</span><span class="price num">Rs. 390</span></li><li><span>Buff sausages chilly</span><span class="price num">Rs. 390</span></li></ul></div>
+      <div role="tabpanel" class="panel" id="panel-pork" aria-labelledby="tab-pork"><ul class="price-list"><li><span>Pork ribs</span><span class="price num">Rs. 495</span></li><li><span>Pork sadeko</span><span class="price num">Rs. 495</span></li><li><span>Local pork sezwan</span><span class="price num">Rs. 420</span></li><li><span>Pork chilly</span><span class="price num">Rs. 450</span></li><li><span>Pork sekuwa</span><span class="price num">Rs. 500</span></li><li><span>Pork khaja set</span><span class="price num">Rs. 600</span></li><li><span>Spicy grilled pork</span><span class="price num">Rs. 500</span></li></ul></div>
+      <div role="tabpanel" class="panel" id="panel-mutton" aria-labelledby="tab-mutton"><ul class="price-list"><li><span>Mutton sekuwa</span><span class="price num">Rs. 600</span></li><li><span>Mutton chilly</span><span class="price num">Rs. 600</span></li><li><span>Mutton sadeko</span><span class="price num">Rs. 600</span></li><li><span>Mutton khaja set</span><span class="price num">Rs. 700</span></li><li><span>Mutton fry</span><span class="price num">Rs. 700</span></li></ul></div>
+      <div role="tabpanel" class="panel" id="panel-wraps" aria-labelledby="tab-wraps"><ul class="price-list"><li><span>Classic chicken wrap with french fries</span><span class="price num">Rs. 400</span></li><li><span>Tandoori chicken wrap with french fries</span><span class="price num">Rs. 400</span></li><li><span>Peri peri chicken wrap with french fries</span><span class="price num">Rs. 420</span></li><li><span>Bacon eater wrap with french fries</span><span class="price num">Rs. 420</span></li><li><span>Paneer delight or tikka wrap with french fries</span><span class="price num">Rs. 420</span></li><li><span>Veg wrap with french fries</span><span class="price num">Rs. 380</span></li></ul></div>
+      <div role="tabpanel" class="panel" id="panel-noodles" aria-labelledby="tab-noodles"><ul class="price-list"><li><span>Veg chowmein, thukpa or fried rice</span><span class="price num">Rs. 240</span></li><li><span>Egg chowmein, thukpa or fried rice</span><span class="price num">Rs. 260</span></li><li><span>Buff chowmein, thukpa or fried rice</span><span class="price num">Rs. 260</span></li><li><span>Chicken chowmein, thukpa or fried rice</span><span class="price num">Rs. 250</span></li><li><span>Mixed chowmein, thukpa or fried rice</span><span class="price num">Rs. 350</span></li><li><span>Pork chowmein, thukpa or fried rice</span><span class="price num">Rs. 280</span></li><li><span>Mutton chowmein, thukpa or fried rice</span><span class="price num">Rs. 350</span></li><li><span>Buff keema noodles</span><span class="price num">Rs. 350</span></li><li><span>Chicken keema noodles</span><span class="price num">Rs. 380</span></li><li><span>Paneer keema noodles</span><span class="price num">Rs. 380</span></li></ul></div>
+      <div role="tabpanel" class="panel" id="panel-thali" aria-labelledby="tab-thali"><ul class="price-list"><li><span>Veg thali set</span><span class="price num">Rs. 450</span></li><li><span>Chicken thali set</span><span class="price num">Rs. 500</span></li><li><span>Mutton thali set</span><span class="price num">Rs. 600</span></li></ul></div>
+
+    </div>
+  </section>
+
+  <section class="reviews" id="reviews">
+    <div class="container">
+      <div class="reviews-bar">
+        <h2>Guest reviews.</h2>
+        <p class="reviews-sum"><span class="figure">3.8</span> from 450 Google reviews. <a class="link-plain" href="https://maps.app.goo.gl/TU4D8PjLdaA6rXhF8" target="_blank" rel="noopener">Read the rest on Google</a></p>
+      </div>
+      <ul class="rev-row collapsed" id="rev-row">
+<li class="rev"><p class="rev-text">Old Town is really special! I was honestly surprised that they deliver such delicious biryani even late at<span class="rest"> night. The delivery person was also very polite and friendly. …</span></p><p class="who">Bibek Ghimire, a month ago</p></li>
+<li class="rev"><p class="rev-text">The food is great. But it takes time for the food to come... Like more than 45 minutes.<span class="rest"> But kudos to them. They open till really late at night. And once again the food is great. The slow service might have been due to it being a festival time.</span></p><p class="who">Ayush Suwal, a month ago</p></li>
+<li class="rev"><p class="rev-text">I tried pork ribs and Masala Madness Combo from Old Town and I had a great experience with<span class="rest"> the food. Such a great taste in Bhaktapur, never expected. HIGHLY RECOMMENDED</span></p><p class="who">Anuj Bhusal, a year ago</p></li>
+<li class="rev"><p class="rev-text">~Not satisfied~ Despite quite a lot negative reviews, I decided to try food at this place for …</p><p class="who">Sarad S. Dhungel, edited 2 months ago</p></li>
+<li class="rev"><p class="rev-text">I’ve been a loyal customer of Old Town for quite some time, and I’ve always appreciated their food<span class="rest"> quality and prompt delivery. However, my recent experience was extremely disappointing. While enjoying a paneer curry, I found a piece of …</span></p><p class="who">Nipuna Neupane, a year ago</p></li>
+      </ul>
+      <button type="button" class="btn btn-light more-revs" id="more-revs" hidden>Show all reviews</button>
+    </div>
+  </section>
+
+  <section class="visit" id="visit">
+    <div class="container">
+      <div>
+        <h2>Find us in Bhaktapur.</h2>
+        <ul class="facts">
+          <li><span>Address</span><span>Duwakot Road, Bhaktapur 44800</span></li>
+          <li><span>Hours</span><span>Open late</span></li>
+          <li><span>Phone</span><span>Add your number</span></li>
+        </ul>
+        <a class="btn" href="https://maps.app.goo.gl/TU4D8PjLdaA6rXhF8" target="_blank" rel="noopener">Get directions</a>
+      </div>
+      <div class="map">
+        <iframe tabindex="-1" title="Old Town Food on Google Maps" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=27.6776181,85.4075666&amp;z=15&amp;output=embed"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section class="reserve band" id="reserve">
+    <div class="container">
+      <div>
+        <h2>Reserve a table.</h2>
+        <p>Tell us when and how many.</p>
+      </div>
+      <form id="reserve-form">
+        <label>Name<input name="name" autocomplete="name" required></label>
+        <label>Phone<input name="phone" type="tel" autocomplete="tel" required></label>
+        <label>Date<input name="date" type="date" required></label>
+        <label>Time<input name="time" type="time" required></label>
+        <label class="wide">Guests
+          <select name="guests"><option>1 to 2</option><option>3 to 4</option><option>5 to 8</option><option>9 or more</option></select>
+        </label>
+        <label class="wide">Note<textarea name="note"></textarea></label>
+        <button class="btn" type="submit">Request a table</button>
+        <p class="form-note" id="form-note" role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <a class="wordmark" href="#top" aria-label="Old Town Food, home">
+          <svg class="logo-mark" viewBox="0 0 48 48" width="40" height="40" aria-hidden="true"><circle cx="24" cy="24" r="21" fill="none" stroke="currentColor" stroke-width="3"/><circle cx="24" cy="24" r="16" fill="none" stroke="currentColor" stroke-width="1"/><text x="24" y="30" text-anchor="middle" class="logo-letters">OT</text></svg>
+          <span class="logo-text">Old Town Food<small>Quality you can taste</small></span>
+        </a>
+    <ul>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#visit">Visit</a></li>
+      <li><a href="https://maps.app.goo.gl/TU4D8PjLdaA6rXhF8" target="_blank" rel="noopener">Google Maps</a></li>
+    </ul>
+  </div>
+</footer>
+
+<dialog id="pop" aria-labelledby="pop-name">
+  <button type="button" class="round-btn lb-close" id="pop-close" aria-label="Close"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg></button>
+  <div class="pop-img"><img id="pop-img" alt="" src="./img/pork.jpg" width="320" height="320"></div>
+  <p class="pop-cat" id="pop-cat"></p>
+  <h3 id="pop-name"></h3>
+  <p class="pop-price num" id="pop-price"></p>
+  <a class="btn" id="pop-book" href="#reserve">Book a table</a>
+</dialog>
+
+<dialog id="lightbox" aria-label="Enlarged photo">
+  <button type="button" class="round-btn lb-close" id="lb-close" aria-label="Close photo"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg></button>
+  <img id="lb-img" alt="" src="./img/interior.png" width="305" height="250">
+  <p id="lb-cap"></p>
+</dialog>
+
+<script>
+document.querySelectorAll('[data-slot] img').forEach(function (i) { if (i.complete && !i.naturalWidth) i.remove(); else i.addEventListener('error', function () { i.remove(); }, { once: true }); });
+document.getElementById('reserve-form').addEventListener('submit', function (e) {
+  e.preventDefault();
+  document.getElementById('form-note').textContent = 'Thanks. This form is not connected yet, so please call to confirm your table.';
+  e.target.reset();
+});
+(function () {
+  var tabs = Array.prototype.slice.call(document.querySelectorAll('.tab'));
+  if (!tabs.length) return;
+  document.documentElement.classList.add('js');
+  function select(t) {
+    tabs.forEach(function (b) {
+      var on = b === t;
+      b.setAttribute('aria-selected', on ? 'true' : 'false');
+      b.tabIndex = on ? 0 : -1;
+      document.getElementById(b.getAttribute('aria-controls')).hidden = !on;
+    });
+  }
+  tabs.forEach(function (b, i) {
+    b.addEventListener('click', function () { select(b); });
+    b.addEventListener('keydown', function (e) {
+      var n = e.key === 'ArrowRight' ? i + 1 : e.key === 'ArrowLeft' ? i - 1 : null;
+      if (n === null) return;
+      n = (n + tabs.length) % tabs.length; tabs[n].focus(); select(tabs[n]); e.preventDefault();
+    });
+  });
+  select(tabs[0]);
+})();
+(function () {
+  var row = document.getElementById('dish-row');
+  function by(dir) { row.scrollBy({ left: dir * (row.firstElementChild.offsetWidth + 24) * 2, behavior: 'smooth' }); }
+  document.getElementById('prev').addEventListener('click', function () { by(-1); });
+  document.getElementById('next').addEventListener('click', function () { by(1); });
+})();
+(function () {
+  var row = document.getElementById('rev-row'), more = document.getElementById('more-revs');
+  if (!row) return;
+  row.querySelectorAll('.rev').forEach(function (li) {
+    var rest = li.querySelector('.rest');
+    if (!rest) return;
+    rest.hidden = true;
+    var dots = document.createElement('span'); dots.textContent = '…'; rest.before(dots);
+    var b = document.createElement('button');
+    b.type = 'button'; b.className = 'rev-more'; b.textContent = 'Read more';
+    b.setAttribute('aria-expanded', 'false');
+    b.addEventListener('click', function () { var o = rest.hidden; rest.hidden = !o; dots.hidden = o; b.textContent = o ? 'Show less' : 'Read more'; b.setAttribute('aria-expanded', o ? 'true' : 'false'); });
+    li.insertBefore(b, li.querySelector('.who'));
+  });
+  more.hidden = false;
+  more.addEventListener('click', function () { var c = row.classList.toggle('collapsed'); more.textContent = c ? 'Show all reviews' : 'Show fewer reviews'; });
+})();
+(function () {
+  var track = document.getElementById('slides');
+  if (!track) return;
+  var n = track.children.length, i = 0, timer = null, box = track.parentElement;
+  var dots = document.getElementById('dots');
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  for (var k = 0; k < n; k++) (function (k) {
+    var d = document.createElement('button');
+    d.type = 'button'; d.className = 'dot'; d.setAttribute('aria-label', 'Photo ' + (k + 1));
+    d.addEventListener('click', function () { go(k); restart(); });
+    dots.appendChild(d);
+  })(k);
+  function go(x) {
+    i = (x + n) % n;
+    track.style.transform = 'translateX(' + (-100 * i) + '%)';
+    Array.prototype.forEach.call(dots.children, function (d, j) { d.setAttribute('aria-current', j === i ? 'true' : 'false'); });
+  }
+  function restart() { if (timer) clearInterval(timer); if (!reduce) timer = setInterval(function () { go(i + 1); }, 4000); }
+  document.getElementById('s-prev').addEventListener('click', function () { go(i - 1); restart(); });
+  document.getElementById('s-next').addEventListener('click', function () { go(i + 1); restart(); });
+  box.addEventListener('mouseenter', function () { if (timer) clearInterval(timer); });
+  box.addEventListener('mouseleave', restart);
+  box.addEventListener('focusin', function () { if (timer) clearInterval(timer); });
+  go(0); restart();
+})();
+(function () {
+  var pop = document.getElementById('pop');
+  if (!pop || !pop.showModal) return;
+  var photos = { buff: 'buff.jpg', pork: 'pork.jpg', mutton: 'mutton.jpg', wraps: 'wrap.jpg', noodles: 'noodles.jpg', thali: 'thali.jpg' };
+  var cats = { buff: 'Buff', pork: 'Pork', mutton: 'Mutton', wraps: 'Wraps', noodles: 'Noodles and rice', thali: 'Thali' };
+  function show(name, price, src, cat) {
+    var im = document.getElementById('pop-img');
+    im.src = src; im.alt = name;
+    document.getElementById('pop-name').textContent = name;
+    document.getElementById('pop-price').textContent = price;
+    document.getElementById('pop-cat').textContent = cat;
+    pop.showModal();
+  }
+  function wire(el, fn) {
+    el.classList.add('poppable'); el.tabIndex = 0; el.setAttribute('role', 'button');
+    el.addEventListener('click', function (e) { if (e.target.closest('a')) return; fn(); });
+    el.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); fn(); } });
+  }
+  document.querySelectorAll('.price-list li').forEach(function (li) {
+    var k = li.closest('.panel').id.replace('panel-', '');
+    wire(li, function () { show(li.children[0].textContent, li.children[1].textContent, './img/' + photos[k], cats[k]); });
+  });
+  document.querySelectorAll('.dish').forEach(function (d) {
+    function open() { show(d.querySelector('h3').textContent, d.querySelector('.price').textContent, d.querySelector('.dish-img img').getAttribute('src'), d.querySelector('p').textContent); }
+    d.style.cursor = 'pointer';
+    d.addEventListener('click', function (e) { var a = e.target.closest('a'); if (a) e.preventDefault(); open(); });
+  });
+  document.getElementById('pop-close').addEventListener('click', function () { pop.close(); });
+  document.getElementById('pop-book').addEventListener('click', function () { pop.close(); });
+  pop.addEventListener('click', function (e) { if (e.target === pop) pop.close(); });
+})();
+(function () {
+  var dlg = document.getElementById('lightbox');
+  if (!dlg || !dlg.showModal) return;
+  var img = document.getElementById('lb-img'), cap = document.getElementById('lb-cap');
+  function open(el) {
+    img.src = el.currentSrc || el.src; img.alt = el.alt;
+    var f = el.closest('figure'); var c = f && f.querySelector('figcaption');
+    cap.textContent = c ? c.textContent : el.alt;
+    dlg.showModal();
+  }
+  document.querySelectorAll('.slide img, .dish-img img, .menu-feature img, .hero-photo img').forEach(function (el) {
+    if (el.closest('.hero-photo')) return;
+    el.classList.add('zoomable'); el.tabIndex = 0; el.setAttribute('role', 'button');
+    el.setAttribute('aria-label', 'Enlarge photo: ' + el.alt);
+    el.addEventListener('click', function () { open(el); });
+    el.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(el); } });
+  });
+  document.getElementById('lb-close').addEventListener('click', function () { dlg.close(); });
+  dlg.addEventListener('click', function (e) { if (e.target === dlg) dlg.close(); });
+})();
+(function () {
+  var wrap = document.getElementById('hero-wrap');
+  if (!wrap || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  var ticking = false;
+  function update() {
+    var h = wrap.offsetHeight || 1;
+    var t = Math.min(Math.max(window.scrollY / (h * 0.9), 0), 1);
+    wrap.style.transform = 'rotate(' + (-t * 5) + 'deg)';
+    wrap.style.opacity = String(1 - Math.max(0, t - 0.4) / 0.6);
+    wrap.style.visibility = t >= 1 ? 'hidden' : 'visible';
+    ticking = false;
+  }
+  window.addEventListener('scroll', function () { if (!ticking) { ticking = true; requestAnimationFrame(update); } }, { passive: true });
+  update();
+})();
+</script>
+</body>
+</html>
